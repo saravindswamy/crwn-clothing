@@ -9,16 +9,22 @@
   background-color: white;
   top: 80px;
   right: 0;
-  z-index:5;
+  z-index: 5;
 
+  .empty-message{
+    font-size: 18px;
+    margin: 50px auto  ;
+  } 
+  
+  
   .cart-items {
-      height: 240px;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
   }
 
   button {
-      margin-top: auto;
+    margin-top: auto;
   }
 }
